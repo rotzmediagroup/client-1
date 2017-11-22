@@ -13,6 +13,9 @@ if(UNIT_TESTING)
     find_package(Qt5Test REQUIRED)
 endif()
 
+find_package(Qt5WebEngineWidgets REQUIRED)
+find_package(Qt5WebEngine REQUIRED)
+
 if(NOT TOKEN_AUTH_ONLY)
     find_package(Qt5Widgets REQUIRED)
     if(APPLE)
