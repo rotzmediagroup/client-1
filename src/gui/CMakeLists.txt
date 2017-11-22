@@ -39,6 +39,7 @@ set(client_UI
     wizard/owncloudoauthcredspage.ui
     wizard/owncloudsetupnocredspage.ui
     wizard/owncloudwizardresultpage.ui
+    wizard/webviewpage.ui
 )
 
 qt_wrap_ui(client_UI_SRCS ${client_UI})
@@ -110,6 +111,7 @@ set(client_SRCS
     wizard/owncloudwizardcommon.cpp
     wizard/owncloudwizard.cpp
     wizard/owncloudwizardresultpage.cpp
+    wizard/webviewpage.cpp
 )
 
 IF(NOT NO_SHIBBOLETH)
